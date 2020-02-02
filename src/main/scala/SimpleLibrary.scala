@@ -11,6 +11,11 @@ object IdGenerator{ //In case multiple SimpleLibraries exist, req. 4
   }
 }
 
+object SimpleLibrary {
+  def main(args: Array[String]): Unit = {
+  }
+}
+
 class SimpleLibrary {
   private var availableBooks: List[Book] = Nil // req. 1
   private var lentBooks: List[LentBook] = Nil
