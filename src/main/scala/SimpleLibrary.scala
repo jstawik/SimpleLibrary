@@ -4,6 +4,7 @@ case class LentBook(name: String, book:Book)
 
 object IdGenerator{ //In case multiple SimpleLibraries exist, req. 4
   private var max: Int = 0
+  def getTopId: Int = this.max
   def getNewId: Int = {
     this.max = max + 1
     this.max
