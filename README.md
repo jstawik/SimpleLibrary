@@ -10,4 +10,5 @@ sbt compile
 sbt test
 sbt run
 ```
-To build it and run tests attached in src/test/scala
+To build it and run tests attached in src/test/scala. \
+Intellij users can also use the "Checkout from version control feature".
